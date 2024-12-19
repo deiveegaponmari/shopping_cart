@@ -1,0 +1,9 @@
+.template{
+    background-color: rgb(48, 46, 46);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+}
