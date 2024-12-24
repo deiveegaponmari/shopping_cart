@@ -26,9 +26,7 @@ export default function Home() {
     setCart(datacopy)
   }}
  function handlesubcount(product){
-  /* const dataCopy=[...cart];
-  dataCopy.filter((item)=>item.id !==product);
-  setCart(dataCopy) */
+
   setCart(cart.filter((item) => item.id !== product));
  }
  
